@@ -1,0 +1,38 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+header,footer{
+    background-color: antiquewhite;
+}
+
+.site-title{
+    color: maroon;
+}
+
+#my-image{
+    box-shadow: 10px 10px 5px 5px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.Hobbies-list li:nth-child(odd){
+    background-color: yellow;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: aquamarine;
+    border: 1px dotted;
+}
+
+a:hover{
+    background-color: yellow;
+}
